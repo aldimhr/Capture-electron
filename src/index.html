@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kepcer</title>
+  </head>
+  <body>
+    <header class="sticky left-0 right-0 top-0 w-full py-2 px-20 border bg-white">
+      <div>
+        <p>
+          Directory to save images :
+          <span id="image-path"></span>
+        </p>
+        <button id="change-directory">Change directory</button>
+      </div>
+
+      <!-- <button id="capture" class="">Capture</button> -->
+    </header>
+    <div class="w-screen px-20">
+      <div class="w-full" id="imageWrapper">
+        <div id="imageContainer"></div>
+      </div>
+
+      <script src="./renderer.js"></script>
+    </div>
+  </body>
+</html>
